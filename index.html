@@ -8,8 +8,52 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="left">
+        <div class="banner"><img src="/images/logo.png"><h1>ODIN</h1></div>
+        <div class="credit">Photo by 
+            <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on 
+            <a href="https://unsplash.com/">Unsplash</a>
+        </div>
+    </div>
     
-    
+    <div class="right">
+
+        <div class="reminder">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
+            <h2>You know you want to.</h2>
+        </div>
+
+        <div class="sign-up">
+            <form action="">
+                <div class="info-box">
+                    <h2>Let's do this!</h2>
+
+                    <section>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="lsst-name" id="lsst-name">
+                    </section>
+
+                    <section>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" name="tel" id="tel" pattern=".{8,}">
+                    </section>
+                    
+                    <section>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd" pattern=".{8,}">
+                        <label for="cpwd">CONFIRM PASSWORD</label>
+                        <input type="password" name="cpwd" id="cpwd" pattern=".{8,}">
+                    </section>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a>Log in</a></p>
+        </div>
+    </div>
 </body>
 <script src="index.js"></script>
 </html>
